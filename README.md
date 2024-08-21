@@ -1,3 +1,3 @@
-# execute-scripts
+### Execute Scripts
 
-This script is designed to execute all Python scripts stored in a given folder (by default in the `scripts` folder). Each script executes sequentially a `.py` file in a folder, displaying progress information to the console. If an error occurs during the execution of any script, the script continues to execute the remaining files, displaying an error message and a traceback.
+This Python script is designed to execute all Python scripts (`.py` files) located in a specified directory. It suppresses the output of the scripts and only displays a summary of execution results and errors. The script handles exceptions gracefully, showing only the most relevant part of the traceback for errors.
